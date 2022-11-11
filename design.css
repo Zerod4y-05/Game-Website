@@ -1,14 +1,15 @@
 .header-container {
     background-color: blueviolet;
-    width: 20rem;
+    width: 119rem;
     height: 10rem;
 }
 .main-container {
-    width: 40rem;
-    height: 40rem;
+    background-color: aquamarine;
+    width: 100rem;
+    height: 37rem;
 }
 .footer-container {
     background-color: aqua;
-    width: 20rem;
+    width: 119rem;
     height: 10rem;
 }
