@@ -5,8 +5,6 @@ const routen = [
     { hash: "#othergames", function: renderOthergames}
 ];
 
-console.log(location.hash)
-
 //Checking hash
 var hasfound = true;
 for (let index = 0; index < routen.length; index++) {
@@ -23,7 +21,7 @@ if (hasfound) {
 }
 
 function renderDemonborn() {
-    document.getElementsByClassName("ddd")[0].innerHTML = "hello";  
+    document.getElementsByClassName("ddd")[0].innerHTML = `<iframe src="./demonborn/index.html" frameborder="0"></iframe>`;  
 }
 
 function renderOthergames() {
