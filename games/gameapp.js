@@ -17,14 +17,21 @@ for (let index = 0; index < routen.length; index++) {
 }
 
 if (hasfound) {
-    document.getElementsByClassName("ddd")[0].innerHTML = "game not found";
+    document.getElementsByClassName("WholeGame")[0].innerHTML = "game not found";
 }
 
 function renderDemonborn() {
-    document.getElementsByClassName("ddd")[0].innerHTML = `<iframe src="./demonborn/index.html" class="game"></iframe>`;  
+    document.getElementsByClassName("WholeGame")[0].innerHTML = `
+    <iframe src="./demonborn/index.html" class="game"></iframe>
+    <section>
+        <h3>Info</h3>
+        Demon born ist ein kleines 2D game, bei dem der Spieler einen Ritter
+        spielt. Der Spieler muss dabei mit seinem Schwert gegner besiegen
+        und von Platform zu Platform springen.
+    </section>`;  
 }
 
 function renderOthergames() {
-    document.getElementsByClassName("ddd")[0].innerHTML = "dfdf";  
+    document.getElementsByClassName("WholeGame")[0].innerHTML = "dfdf";  
 }
 
