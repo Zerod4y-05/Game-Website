@@ -21,7 +21,7 @@ if (hasfound) {
 }
 
 function renderDemonborn() {
-    document.getElementsByClassName("ddd")[0].innerHTML = `<iframe src="./demonborn/index.html" frameborder="0"></iframe>`;  
+    document.getElementsByClassName("ddd")[0].innerHTML = `<iframe src="./demonborn/index.html" class="game"></iframe>`;  
 }
 
 function renderOthergames() {
