@@ -1,8 +1,12 @@
+import { renderDemonborn } from "./pagerenderer.js";
+import { renderBehindTheWalls } from "./pagerenderer.js";
+import { renderOthergames } from "./pagerenderer.js";
 
 //All Games
 const routen = [
     { hash: "#demonborn", function: renderDemonborn},
-    { hash: "#othergames", function: renderOthergames}
+    { hash: "#behindthewalls", function: renderBehindTheWalls},
+    { hash: "#othergames", function: renderOthergames},
 ];
 
 //Checking hash
@@ -17,21 +21,5 @@ for (let index = 0; index < routen.length; index++) {
 }
 
 if (hasfound) {
-    document.getElementsByClassName("WholeGame")[0].innerHTML = "game not found";
+    document.getElementsByClassName("WholeSite")[0].innerHTML = "game not found";
 }
-
-function renderDemonborn() {
-    document.getElementsByClassName("WholeGame")[0].innerHTML = `
-    <iframe src="./demonborn/index.html" class="game"></iframe>
-    <section>
-        <h3>Info</h3>
-        Demon born ist ein kleines 2D game, bei dem der Spieler einen Ritter
-        spielt. Der Spieler muss dabei mit seinem Schwert gegner besiegen
-        und von Platform zu Platform springen.
-    </section>`;  
-}
-
-function renderOthergames() {
-    document.getElementsByClassName("WholeGame")[0].innerHTML = "dfdf";  
-}
-

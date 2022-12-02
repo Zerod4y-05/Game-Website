@@ -1,15 +1,67 @@
+:root{
+    --blue: #373383;
+    --fontColor: #d7dfff;
+    --background: #2a2a2a;
+    --background_Header: #000000;
+}
+
 body{
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+    font-size: 62.5%;
+    color: var(--fontColor);
+    background-color: var(--background);
+}
+
+.HeaderNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: fit-content;
+    width: 100%;
+
+    background-color: var(--background_Header);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.DefaultButton{
+    padding: 0.25rem;
+    margin: 0;
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--fontColor);
+    background-color: var(--blue);
+}
+
+.NavButton{
+    margin: 0.5rem;
 }
 
 .WholeGame{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5rem;
+    margin: 0 5rem;
 }
 
 .game{
     border: 0;
     width: 960px;
     height: 650px;
+}
+
+.inputGame{
+    display: none;
+}
+
+.footer{
+    height: 5rem;
 }
