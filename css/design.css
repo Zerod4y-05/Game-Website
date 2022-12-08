@@ -1,6 +1,45 @@
-.header {
-    background-color: aqua;
+body {
+    font-family: sans-serif;
+    background-color: #adadad;
+    overflow-x: hidden;
 }
-.main-container {
-    background-color: chartreuse;
+
+#header {
+    width: 100%;
+    background-color: #000000;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+#navigation {
+    list-style-type: none ;
+   
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    display: inline;
+    padding: 10px;
+    
+}
+
+#navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 25rem;
+}
+
+#body {
+    width: max-content;
+    padding: 20px;
+    height: 48rem;
+}
+
+#footer {
+    width: 100%;
+    background-color: #000000;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
 }
