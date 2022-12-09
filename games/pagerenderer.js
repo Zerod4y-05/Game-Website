@@ -18,6 +18,8 @@ export function renderDemonborn() {
         einen Ritter spielt. Der Spieler muss dabei mit seinem
         Schwert gegner besiegen und von Platform zu Platform
         springen. Das Spiel ist nicht in seinem fertigen Stand.
+        <h3>Developer</h3>
+        Team Broccoli
         <h3>Download</h3>
         <input class="inputGame" type="text" name="" id="" />
         <a
@@ -27,6 +29,7 @@ export function renderDemonborn() {
             Version 0.9.3
         </a>
     </section>
+    <footer class="footer"></footer>
 </div>`;
 }
 
@@ -54,6 +57,8 @@ export function renderBehindTheWalls() {
                     roter Würfel und läuft zufällig und ziellos herum. Das Spiel
                     kann im Fullscreen mode nur mithilfe der Windowstaste
                     geschlossen werden.s
+                    <h3>Developer</h3>
+                    Nicola Egloff
                     <h3>Download</h3>
                     <a
                         href="https://drive.google.com/file/d/1WyjquuQ4Sslm9mNbrX_0vnGPKy489i8M/view?usp=sharing"
@@ -62,6 +67,7 @@ export function renderBehindTheWalls() {
                         Version 0.5.0
                     </a>
                 </section>
+                <footer class="footer"></footer>
             </div>`;
 }
 
